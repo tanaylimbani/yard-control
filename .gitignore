@@ -1,0 +1,9 @@
+# Allow-list: upload ONLY the files the shared dashboard needs.
+# Everything else (secrets.toml with API tokens, .venv, data/ Excel files,
+# old dashboard versions, test scripts) stays on this PC.
+*
+!.gitignore
+!requirements.txt
+!DEPLOY.md
+!make_password_hash.py
+!yard_gps_dashboard_hub_multi_v6_parking_hotspots.py
